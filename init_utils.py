@@ -245,4 +245,4 @@ def load_dataset():
     train_Y = train_Y.reshape((1, train_Y.shape[0]))
     test_X = test_X.T
     test_Y = test_Y.reshape((1, test_Y.shape[0]))
-    return train_X, train_Y, test_X, test_Y
+    return train_X, train_Y, test_X, test_Y, plt
